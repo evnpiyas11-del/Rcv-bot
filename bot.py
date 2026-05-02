@@ -6,7 +6,7 @@ import openpyxl
 
 # --- কনফিগারেশন ---
 TOKEN = '8796638911:AAHQODPuXyvJHnXN28WQjJDJKI3qwsTicFs'
-ADMIN_IDS = [7229266894, 8060113003] # আপনারা দুইজন
+ADMIN_IDS = [8021566644, 8060113003] # আপনারা দুইজন
 
 # আপনার দেওয়া পাবলিক গ্রুপের ইউজারনেম
 RECEIVED_GROUP_USERNAME = '@rcvid11' 
