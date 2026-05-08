@@ -37,7 +37,7 @@ async def message_handler(update: Update, context: ContextTypes.DEFAULT_TYPE):
                     [InlineKeyboardButton("Instagram", callback_data='ig')]]
         await update.message.reply_text("🔖 মামা কোন ধরনের ফাইল সাবমিট করবা?", reply_markup=InlineKeyboardMarkup(keyboard))
     elif text == "📞 Support":
-        await update.message.reply_text("📞 সাপোর্টের জন্য যোগাযোগ করুন: https://t.me/iklash11")
+        await update.message.reply_text("📞 সাপোর্টের জন্য যোগাযোগ করুন: https://t.me/MHMSiam")
     elif text == "❓ কিভাবে সাবমিট করবো":
         await update.message.reply_text("📂 ফাইল সাবমিট করার ভিডিও লিংক ➡️ [আপনার ভিডিওর লিংক এখানে]")
 
@@ -78,7 +78,7 @@ async def callback_handler(update: Update, context: ContextTypes.DEFAULT_TYPE):
         elif action == 'reject':
             # ১. ইউজারকে সেই ফাইলের ওপর রিপ্লাই দিয়ে জানানো
             try:
-                await context.bot.send_message(chat_id=user_id, text="❌ আপনার এই ফাইলটি রিজেক্ট করা হয়েছে। 📞 বিস্তারিত জানতে @iklash11", reply_to_message_id=file_msg_id)
+                await context.bot.send_message(chat_id=user_id, text="❌ আপনার এই ফাইলটি রিজেক্ট করা হয়েছে। 📞 বিস্তারিত জানতে @MHMSiam", reply_to_message_id=file_msg_id)
             except: pass
             
             # ২. অ্যাডমিন মেসেজের স্ট্যাটাস আপডেট
